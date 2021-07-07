@@ -62,25 +62,35 @@
                         <!-- end navigasi breadcrumb -->
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Lampu Doraemon</h5>
-                      
-                      <!-- Information of item -->
-                      <table class="table table-hover">
-                        <tr>
-                            <th>Kualitas</th>
-                            <td class="text-success">Baik</td>
-                        </tr>
-                        <tr>
-                            <th>Tanggal Beli</th>
-                            <td>19/05/2019</td>
-                        </tr>
-                        <tr>
-                            <th>Deskripsi</th>
-                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quaerat omnis, quibusdam ex et accusantium? Perspiciatis pariatur officia odio exercitationem quos est ratione sit, harum, at doloribus atque. Culpa, beatae.</td>
-                        </tr>
-                      </table>
-                      <!-- end information of item -->
-                      <a href="checkout.html" class="btn btn-primary">Pinjam</a>
+                        <!-- form peminjaman -->
+                        <form>
+                            <div class="mb-3">
+                              <label for="title" class="form-label">Nim</label>
+                              <input type="number" class="form-control" id="nim" value="1800018023" disabled>
+                            </div>
+                            <div class="mb-3">
+                                <label for="title" class="form-label">Nama Peminjam</label>
+                                <input type="text" disabled value="Lugas Alhawariy" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Fasilitas" class="form-label">Fasilitas</label>
+                                <select id="Fasilitas" class="form-control">
+                                    <option value="#">Meja Belajar</option>
+                                    <option value="#">Lampu Ajaib</option>
+                                    <option value="#">Meja Belajar</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Fasilitas" class="form-label">Tanggal Pinjam</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Fasilitas" class="form-label">Tanggal Kembali</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                        </form>
+                        <!-- end form peminjaman -->
                     </div>
                   </div>
             </div>
