@@ -14,4 +14,8 @@ footer {
 footer p {
   color: #979797;
 }
+
+.barang-tersedia {
+  max-height: 200px;
+}
 /*# sourceMappingURL=css.css.map */
